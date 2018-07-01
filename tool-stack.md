@@ -56,6 +56,7 @@
 	* [Docker Hub](https://hub.docker.com/)
 	* [Overview of Docker Compose | Docker Documentation](https://docs.docker.com/compose/overview/)
 	* [Docker Machine Overview | Docker Documentation](https://docs.docker.com/machine/overview/)
+* [docker-clean: A script that cleans docker containers, images, volumes, and networks.](https://github.com/ZZROTDesign/docker-clean)
 * [Production-Grade Container Orchestration - Kubernetes](https://kubernetes.io/)
 	* [kubernetes/minikube: Run Kubernetes locally](https://github.com/kubernetes/minikube)
 
@@ -120,6 +121,8 @@
 * [~~Node.js~~](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [~~Erlang~~](https://www.erlang.org/) - a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 
+# Debug
+* [mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy.
 # Console
 * [Solarized](http://ethanschoonover.com/solarized) - Precision colors for machines and people
 * [ZSH - THE Z SHELL](http://zsh.sourceforge.net/) - a shell designed for interactive use, although it is also a powerful scripting language.
