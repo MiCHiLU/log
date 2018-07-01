@@ -55,7 +55,9 @@
 * [Production-Grade Container Orchestration - Kubernetes](https://kubernetes.io/)
 	* [kubernetes/minikube: Run Kubernetes locally](https://github.com/kubernetes/minikube)
 
-# CI/CD [~continuous~ ~integration~](https://en.wikipedia.org/wiki/Continuous_integration) ~and~ [~continuous~ ~delivery~](https://en.wikipedia.org/wiki/Continuous_delivery)
+# CI/CD
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) and [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+
 * [Wercker](https://www.wercker.com/) - Build, test and deploy container-native applications at scale
 	- ~~Travis CI~~
 * [Continuous Integration and Delivery - CircleCI](https://circleci.com/)
