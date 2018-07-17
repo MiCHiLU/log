@@ -36,15 +36,17 @@
 	* [Firebase Hosting](https://firebase.google.com/products/hosting/) - Fast and secure web hosting
 	* [Firebase Authentication](https://firebase.google.com/products/auth/) -  Simple, free multi-platform sign-in
 	* [Cloud Functions for Firebase](https://firebase.google.com/products/functions/) -  Run your mobile backend code without managing servers
-	* [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/) - Store and sync data in real time
+	* [Cloud Firestore  |  Firebase](https://firebase.google.com/docs/firestore/?hl=en) - Use our flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.
 	* [ML Kit for Firebase | Machine learning for mobile developers  |  Firebase](https://firebase.google.com/products/ml-kit/)
 * [Google Cloud Computing, Hosting Services & APIs  |  Google Cloud](https://cloud.google.com/gcp/)
 	* [App Engine - Build Scalable Web & Mobile Backends in Any Language  |  Google Cloud](https://cloud.google.com/appengine/)
+		* [User Authentication Options  |  App Engine standard environment for Go  |  Google Cloud](https://cloud.google.com/appengine/docs/standard/go/oauth/#firebase_authentication)
 		* [Task Queue Overview  |  App Engine standard environment for Go  |  Google Cloud](https://cloud.google.com/appengine/docs/standard/go/taskqueue/)
 	* [Cloud Endpoints - API Management  |  Google Cloud](https://cloud.google.com/endpoints/)
 	* [Cloud Storage - Online Data Storage  |  Google Cloud](https://cloud.google.com/storage/)
 	* [BigQuery - Analytics Data Warehouse  |  Google Cloud](https://cloud.google.com/bigquery/)
 	* [Datastore - NoSQL Schemaless Database  |  Google Cloud](https://cloud.google.com/datastore/)
+	* [Cloud Firestore Documentation  |  Cloud Firestore  |  Google Cloud](https://cloud.google.com/firestore/docs/) - a NoSQL document database built for automatic scaling, high performance, and ease of application development.
 	* [Cloud Functions - Event-driven Serverless Computing  |  Google Cloud](https://cloud.google.com/functions/)
 	* [Compute Engine - IaaS  |  Google Cloud](https://cloud.google.com/compute/)
 		* [Container-Optimized OS](https://cloud.google.com/container-optimized-os/) - The OS built for containers, designed for Google Cloud Platform
@@ -77,16 +79,31 @@
 - [Bitbucket](https://bitbucket.org/) - The Git solution for professional teams
 - [GitLab](https://gitlab.com/) - The only single product for the complete DevOps lifecycle
 
-
 # Language and Library
+
 ## [Go](https://golang.org/)
+* [Awesome Go](https://awesome-go.com/)
 * [Failure is your Domain | Middlemost Systems](https://middlemost.com/failure-is-your-domain/)
+
 ### Go Library
 * [cgo](https://golang.org/cmd/cgo/) - Cgo enables the creation of Go packages that call C code.
 * [GopherJS: A compiler from Go to JavaScript for running Go code in a browser](https://github.com/gopherjs/gopherjs)
 * [GopherWASM: A wrapper for GopherJS (`gopherjs/js`) and Wasm (`syscall/js`)](https://github.com/gopherjs/gopherwasm)
 * [adnanh/webhook: webhook is a lightweight configurable incoming webhook server which can execute shell commands](https://github.com/adnanh/webhook)
+* [vektra/mockery: A mock code autogenerator for golang](https://github.com/vektra/mockery)
+* [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
+* [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
+* [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
+* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
+* [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
+	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
+
+* [~~goa~~](https://goa.design/) - Design-first API Generation
+
+### Go Tools
 * [alecthomas/gometalinter: Concurrently run Go lint tools and normalise their output](https://github.com/alecthomas/gometalinter)
+* [derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
+* [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
 * [golang/dep: Go dependency management tool](https://github.com/golang/dep)
 * [haya14busa/reviewdog: Automated code review tool integrated with any code analysis tools regardless of programming language](https://github.com/haya14busa/reviewdog)
 * [kisielk/godepgraph: A Go dependency graph visualization tool](https://github.com/kisielk/godepgraph)
@@ -94,14 +111,9 @@
 * [opennota/check: A set of utilities for checking Go sources](https://github.com/opennota/check)
 * [shurcooL/Go-Package-Store: An app that displays updates for the Go packages in your GOPATH.](https://github.com/shurcooL/Go-Package-Store)
 * [tenntenn/deppkg](https://github.com/tenntenn/deppkg)
-* [vektra/mockery: A mock code autogenerator for golang](https://github.com/vektra/mockery)
 * [peter-edge/protoeasy-go: Simpler usage of protoc https://godoc.org/go.pedge.io/protoeasy](https://github.com/peter-edge/protoeasy-go)
 * [cweill/gotests: Generate Go tests from your source code.](https://github.com/cweill/gotests)
-* [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
-* [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
-* [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
-* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
-* [~~goa~~](https://goa.design/) - Design-first API Generation
+
 ---
 * [Dart](https://www.dartlang.org/) - helps you craft beautiful, high-quality experiences across all screens
 	* [AngularDart](https://webdev.dartlang.org/angular) - a web app framework that focuses on productivity, performance, and stability.
@@ -142,6 +154,7 @@
 * [iOS 11 - Apple](https://www.apple.com/ios/ios-11/)
 # Device
 * [MacBook Air (11-inch, Early 2015) - Technical Specifications](https://support.apple.com/kb/SP713?viewlocale=en_US)
+* [Koolertron Cherry MX Red Mechanical Keyboard with 43 Programmable Keys, Model: AE-SMKD92](http://www.koolertron.com/koolertron-cherry-mx-red-programmable-gaming-keypad-for-pubg-mechanical-gaming-keyboard-with-43-programmable-keys-for-playerunknowns-battlegrounds-singlehanded-keypad-macro-setting-p-818.html)
 * [iPod touch (6th generation) - Technical Specifications](https://support.apple.com/kb/SP720?viewlocale=en_US)
 * [Kindle Paperwhite](https://www.amazon.co.jp/dp/B01FIG3SMC)
 * [Amazon Fire 7](https://www.amazon.co.jp/dp/B01J90PKEM)
@@ -161,10 +174,12 @@
 * [f.lux: software to make your life better](https://justgetflux.com/)
 * [Karabiner](https://pqrs.org/osx/karabiner/) - A powerful and stable keyboard customizer for macOS.
 * [Skitch | Evernote](https://evernote.com/intl/en/products/skitch) - Get your point across with fewer words using annotation, shapes and sketches, so that your ideas become reality faster.
+* [appear.in – Easy video conversations](https://appear.in/)
 ---
 - [Homebrew](https://brew.sh/) - The missing package manager for macOS
 ---
 * [scrcpy: Display and control your Android device](https://github.com/Genymobile/scrcpy)
+
 # Editor
 * Apple Notes
 	* [Notes for Mac: Notes overview](https://support.apple.com/kb/PH22608?viewlocale=en_US)
@@ -190,3 +205,9 @@
 * [Affinity Photo - Professional image editing software](https://affinity.serif.com/en-gb/photo/) - The future of photo editing.
 * [Astropad | Turn your iPad into a drawing tablet](https://astropad.com/)
 * [VIRTUAL DJ SOFTWARE - MP3 Mixing Software](https://www.virtualdj.com/)
+
+# Back office
+* [google/clasp: 🔗 Develop Apps Script projects locally.](https://github.com/google/clasp)
+* [Zendesk | Customer Service Software & Support Ticket System](https://www.zendesk.com/)
+* [Refreshing Cloud Business Software | SaaS | Freshworks Inc.](https://www.freshworks.com/)
+* [クラウドサイン｜Web完結・印紙税0円の電子契約サービス](https://www.cloudsign.jp/)
