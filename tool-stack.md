@@ -31,6 +31,7 @@
 * [Cloudflare - The Web Performance & Security Company | Cloudflare](https://www.cloudflare.com/)
 ---
 - [Netlify](https://www.netlify.com/) - All-in-one platform for automating modern web projects
+	* [netlify/netlify-cms: A CMS for Static Site Generators](https://github.com/netlify/netlify-cms)
 	* [~~GitHub Pages~~](https://pages.github.com/) - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.
 - [Firebase](https://firebase.google.com/) - helps mobile app teams succeed
 	* [Firebase Hosting](https://firebase.google.com/products/hosting/) - Fast and secure web hosting
@@ -60,7 +61,7 @@
 	* [Docker Machine Overview | Docker Documentation](https://docs.docker.com/machine/overview/)
 * [docker-clean: A script that cleans docker containers, images, volumes, and networks.](https://github.com/ZZROTDesign/docker-clean)
 * [Production-Grade Container Orchestration - Kubernetes](https://kubernetes.io/)
-	* [kubernetes/minikube: Run Kubernetes locally](https://github.com/kubernetes/minikube)
+	* [kubernetes-sigs/kubeadm-dind-cluster: A Kubernetes multi-node test cluster based on kubeadm](https://github.com/kubernetes-sigs/kubeadm-dind-cluster)
 
 # CI/CD
 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) and [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
@@ -94,7 +95,8 @@
 * [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
 * [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
 * [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
-* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
+* [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
+	* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
 * [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
 	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
 
