@@ -25,6 +25,7 @@
 # Guideline
 * [The Twelve-Factor App](https://12factor.net/) - a methodology for building software-as-a-service apps
 * [Design - Material Design](https://material.io/design/) - Create intuitive and beautiful products with Material Design.
+* [普通のHTMLの書き方](https://hail2u.net/documents/html-best-practices.html)
 # Infrastructure
 * [Google Domains – Google](https://domains.google/)
 * [Freenom](http://www.freenom.com/) - A Name for Everyone
@@ -36,7 +37,6 @@
 - [Firebase](https://firebase.google.com/) - helps mobile app teams succeed
 	* [Firebase Hosting](https://firebase.google.com/products/hosting/) - Fast and secure web hosting
 	* [Firebase Authentication](https://firebase.google.com/products/auth/) -  Simple, free multi-platform sign-in
-	* [Cloud Functions for Firebase](https://firebase.google.com/products/functions/) -  Run your mobile backend code without managing servers
 	* [Cloud Firestore  |  Firebase](https://firebase.google.com/docs/firestore/?hl=en) - Use our flexible, scalable NoSQL cloud database to store and sync data for client- and server-side development.
 	* [ML Kit for Firebase | Machine learning for mobile developers  |  Firebase](https://firebase.google.com/products/ml-kit/)
 * [Google Cloud Computing, Hosting Services & APIs  |  Google Cloud](https://cloud.google.com/gcp/)
@@ -48,7 +48,6 @@
 	* [BigQuery - Analytics Data Warehouse  |  Google Cloud](https://cloud.google.com/bigquery/)
 	* [Datastore - NoSQL Schemaless Database  |  Google Cloud](https://cloud.google.com/datastore/)
 	* [Cloud Firestore Documentation  |  Cloud Firestore  |  Google Cloud](https://cloud.google.com/firestore/docs/) - a NoSQL document database built for automatic scaling, high performance, and ease of application development.
-	* [Cloud Functions - Event-driven Serverless Computing  |  Google Cloud](https://cloud.google.com/functions/)
 	* [Compute Engine - IaaS  |  Google Cloud](https://cloud.google.com/compute/)
 		* [Container-Optimized OS](https://cloud.google.com/container-optimized-os/) - The OS built for containers, designed for Google Cloud Platform
 * [~~AWS~~](https://aws.amazon.com/) - Amazon Web Services - Cloud Computing Services
@@ -60,8 +59,22 @@
 	* [Overview of Docker Compose | Docker Documentation](https://docs.docker.com/compose/overview/)
 	* [Docker Machine Overview | Docker Documentation](https://docs.docker.com/machine/overview/)
 * [docker-clean: A script that cleans docker containers, images, volumes, and networks.](https://github.com/ZZROTDesign/docker-clean)
+* [aquasecurity/microscanner: Scan your container images for package vulnerabilities with Aqua Security](https://github.com/aquasecurity/microscanner)
+
+# Kubernetes
 * [Production-Grade Container Orchestration - Kubernetes](https://kubernetes.io/)
-	* [kubernetes-sigs/kubeadm-dind-cluster: A Kubernetes multi-node test cluster based on kubeadm](https://github.com/kubernetes-sigs/kubeadm-dind-cluster)
+* [kubernetes-sigs/kubeadm-dind-cluster: A Kubernetes multi-node test cluster based on kubeadm](https://github.com/kubernetes-sigs/kubeadm-dind-cluster)
+* [kubernetes/minikube: Run Kubernetes locally](https://github.com/kubernetes/minikube)
+* [minikube/drivers.md at master · kubernetes/minikube](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver) Hyperkit driver
+* [GoogleContainerTools/skaffold: Easy and Repeatable Kubernetes Development](https://github.com/GoogleContainerTools/skaffold)
+* [kubernetes-sigs/kustomize: Customization of kubernetes YAML configurations](https://github.com/kubernetes-sigs/kustomize)
+* [weaveworks/flux: The GitOps Kubernetes operator](https://github.com/weaveworks/flux)
+* [weaveworks/kubediff: Kubediff: a tool for Kubernetes to show differences between running state and version controlled configuration.](https://github.com/weaveworks/kubediff)
+* [Istio](https://istio.io/) - An open platform to connect, manage, and secure microservices
+* [knative/docs: Documentation for users of Knative components](https://github.com/knative/docs) - Knative (pronounced kay-nay-tiv) extends Kubernetes to provide a set of middleware components that are essential to build modern, source-centric, and container-based applications that can run anywhere: on premises, in the cloud, or even in a third-party data center.
+* [Telepresence](https://www.telepresence.io/) - FAST, LOCAL DEVELOPMENT FOR KUBERNETES AND OPENSHIFT MICROSERVICES
+* [alexei-led/pumba: Chaos testing and network emulation tool for Docker.](https://github.com/alexei-led/pumba)
+* [vapor-ware/ksync: Sync files between your local system and a kubernetes cluster.](https://github.com/vapor-ware/ksync)
 
 # CI/CD
 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) and [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
@@ -75,6 +88,13 @@
 # Workflow
 * [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) - Anything in the `master` branch is deployable
 * [Branch deploy](https://www.netlify.com/docs/continuous-deployment/#branches-deploys) - a deploy generated from a branch that is not your Production branch.
+* [​GitOps - Operations by Pull Request](https://www.weave.works/blog/gitops-operations-by-pull-request)
+	* [DevOps: The Next Evolution - GitOps](https://www.weave.works/blog/devops-the-next-evolution-gitops) - builds on DevOps with Git as a single source of truth for the whole system.
+	* [Kubernetes anti-patterns: Let's do GitOps, not CIOps!](https://www.weave.works/blog/kubernetes-anti-patterns-let-s-do-gitops-not-ciops)
+	* [GitOps for Istio - Manage Istio Config like Code](https://www.weave.works/blog/gitops-for-istio-manage-istio-config-like-code)
+	* [stefanprodan/gitops-istio: GitOps Istio Weave Flux demo](https://github.com/stefanprodan/gitops-istio)
+* [Principles of Chaos Engineering](http://principlesofchaos.org/) - the discipline of experimenting on a distributed system in order to build confidence in the system’s capability to withstand turbulent conditions in production.
+* [Automated code reviews & code analytics | Codacy](https://www.codacy.com/)
 # Repository
 - [GitHub](https://github.com/) - The world’s leading software development platform
 - [Bitbucket](https://bitbucket.org/) - The Git solution for professional teams
@@ -99,6 +119,8 @@
 	* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
 * [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
 	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
+* [google/go-cloud: A library and tools for open cloud development in Go.](https://github.com/google/go-cloud)
+* [tarent/loginsrv: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..](https://github.com/tarent/loginsrv)
 
 * [~~goa~~](https://goa.design/) - Design-first API Generation
 
@@ -115,7 +137,7 @@
 * [tenntenn/deppkg](https://github.com/tenntenn/deppkg)
 * [peter-edge/protoeasy-go: Simpler usage of protoc https://godoc.org/go.pedge.io/protoeasy](https://github.com/peter-edge/protoeasy-go)
 * [cweill/gotests: Generate Go tests from your source code.](https://github.com/cweill/gotests)
-
+* [golangとbazelで作るいい感じなビルド環境 - Devlion Memo](http://mjhd.hatenablog.com/entry/2018/07/22/224528)
 ---
 * [Dart](https://www.dartlang.org/) - helps you craft beautiful, high-quality experiences across all screens
 	* [AngularDart](https://webdev.dartlang.org/angular) - a web app framework that focuses on productivity, performance, and stability.
@@ -213,3 +235,4 @@
 * [Zendesk | Customer Service Software & Support Ticket System](https://www.zendesk.com/)
 * [Refreshing Cloud Business Software | SaaS | Freshworks Inc.](https://www.freshworks.com/)
 * [クラウドサイン｜Web完結・印紙税0円の電子契約サービス](https://www.cloudsign.jp/)
+* [cam-inc/viron: ☕️ Automated Design-based Management Console.](https://github.com/cam-inc/viron)
