@@ -199,6 +199,7 @@
 * [Karabiner](https://pqrs.org/osx/karabiner/) - A powerful and stable keyboard customizer for macOS.
 * [Skitch | Evernote](https://evernote.com/intl/en/products/skitch) - Get your point across with fewer words using annotation, shapes and sketches, so that your ideas become reality faster.
 * [appear.in – Easy video conversations](https://appear.in/)
+* [Xcos - Scilab](https://www.scilab.org/en/scilab/gallery/xcos) Dynamic System Modeling
 ---
 - [Homebrew](https://brew.sh/) - The missing package manager for macOS
 ---
