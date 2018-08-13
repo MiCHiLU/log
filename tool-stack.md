@@ -115,12 +115,14 @@
 * [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
 * [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
 * [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
+* [asaskevich/govalidator: [Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
 * [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
-	* [zap - GoDoc](https://godoc.org/go.uber.org/zap)
 * [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
 	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
 * [google/go-cloud: A library and tools for open cloud development in Go.](https://github.com/google/go-cloud)
 * [tarent/loginsrv: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..](https://github.com/tarent/loginsrv)
+* [grpc/grpc-go: The Go language implementation of gRPC. HTTP/2 based RPC](https://github.com/grpc/grpc-go)
+* [vardius/message-bus: Go simple async message bus](https://github.com/vardius/message-bus)
 
 * [~~goa~~](https://goa.design/) - Design-first API Generation
 
