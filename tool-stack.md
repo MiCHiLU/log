@@ -8,8 +8,6 @@
 
 # Architecture
 - [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_query_responsibility_segregation) - Command query responsibility segregation
-  - [~~RESTful~~](https://en.wikipedia.org/wiki/Representational_state_transfer) - Representational state transfer
-	  - [RESTful Webサービス | Leonard Richardson, Sam Ruby, 山本 陽平, 株式会社クイープ |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4873113539)
 - [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) - Domain-driven design
 	- [実践ドメイン駆動設計 | ヴァーン・ヴァーノン, 高木正弘 | コンピュータ・IT | Kindleストア | Amazon](https://www.amazon.co.jp/dp/B00UX9VJGW)
 # Specification
@@ -33,7 +31,6 @@
 ---
 - [Netlify](https://www.netlify.com/) - All-in-one platform for automating modern web projects
 	* [netlify/netlify-cms: A CMS for Static Site Generators](https://github.com/netlify/netlify-cms)
-	* [~~GitHub Pages~~](https://pages.github.com/) - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.
 - [Firebase](https://firebase.google.com/) - helps mobile app teams succeed
 	* [Firebase Hosting](https://firebase.google.com/products/hosting/) - Fast and secure web hosting
 	* [Firebase Authentication](https://firebase.google.com/products/auth/) -  Simple, free multi-platform sign-in
@@ -46,13 +43,10 @@
 	* [Cloud Endpoints - API Management  |  Google Cloud](https://cloud.google.com/endpoints/)
 	* [Cloud Storage - Online Data Storage  |  Google Cloud](https://cloud.google.com/storage/)
 	* [BigQuery - Analytics Data Warehouse  |  Google Cloud](https://cloud.google.com/bigquery/)
-	* [Datastore - NoSQL Schemaless Database  |  Google Cloud](https://cloud.google.com/datastore/)
 	* [Cloud Firestore Documentation  |  Cloud Firestore  |  Google Cloud](https://cloud.google.com/firestore/docs/) - a NoSQL document database built for automatic scaling, high performance, and ease of application development.
 	* [Compute Engine - IaaS  |  Google Cloud](https://cloud.google.com/compute/)
 		* [Container-Optimized OS](https://cloud.google.com/container-optimized-os/) - The OS built for containers, designed for Google Cloud Platform
-* [~~AWS~~](https://aws.amazon.com/) - Amazon Web Services - Cloud Computing Services
 * [Arukas Cloud | Hosting Docker Containers](https://arukas.io/en/)
-	* [~~ConoHa~~](https://www.conoha.jp/)
 ---
 * [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/)
 	* [Docker Hub](https://hub.docker.com/)
@@ -80,7 +74,6 @@
 [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) and [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
 
 * [Wercker](https://www.wercker.com/) - Build, test and deploy container-native applications at scale
-	- ~~Travis CI~~
 * [Continuous Integration and Delivery - CircleCI](https://circleci.com/)
 ---
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - an open-source, automated tool for improving the quality of web pages.
@@ -106,58 +99,63 @@
 * [Awesome Go](https://awesome-go.com/)
 * [Failure is your Domain | Middlemost Systems](https://middlemost.com/failure-is-your-domain/)
 
-### Go Library
-* [cgo](https://golang.org/cmd/cgo/) - Cgo enables the creation of Go packages that call C code.
+### Go Compilers
 * [GopherJS: A compiler from Go to JavaScript for running Go code in a browser](https://github.com/gopherjs/gopherjs)
 * [GopherWASM: A wrapper for GopherJS (`gopherjs/js`) and Wasm (`syscall/js`)](https://github.com/gopherjs/gopherwasm)
-* [adnanh/webhook: webhook is a lightweight configurable incoming webhook server which can execute shell commands](https://github.com/adnanh/webhook)
+
+* [golangとbazelで作るいい感じなビルド環境 - Devlion Memo](http://mjhd.hatenablog.com/entry/2018/07/22/224528)
+
+### Go Library
+* [cgo](https://golang.org/cmd/cgo/) - Cgo enables the creation of Go packages that call C code.
 * [vektra/mockery: A mock code autogenerator for golang](https://github.com/vektra/mockery)
-* [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
-* [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
-* [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
-* [asaskevich/govalidator: [Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
-* [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
 * [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
 	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
 * [google/go-cloud: A library and tools for open cloud development in Go.](https://github.com/google/go-cloud)
+### Authentication and OAuth
 * [tarent/loginsrv: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..](https://github.com/tarent/loginsrv)
+### Command Line
+* [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
+* [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
+### Distributed Systems
 * [grpc/grpc-go: The Go language implementation of gRPC. HTTP/2 based RPC](https://github.com/grpc/grpc-go)
+### Generation and Generics
+* [abice/go-enum: An enum generator for go](https://github.com/abice/go-enum)
+### Logging
+* [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
+### Messaging
 * [vardius/message-bus: Go simple async message bus](https://github.com/vardius/message-bus)
+* [go-msgqueue/msgqueue: Golang task/job queue with SQS & IronMQ backends](https://github.com/go-msgqueue/msgqueue)
+### Validation
+* [asaskevich/govalidator: [Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
 
-* [~~goa~~](https://goa.design/) - Design-first API Generation
+### Utilities
+* [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
+* [derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
 
 ### Go Tools
 * [alecthomas/gometalinter: Concurrently run Go lint tools and normalise their output](https://github.com/alecthomas/gometalinter)
-* [derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
 * [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
-* [golang/dep: Go dependency management tool](https://github.com/golang/dep)
 * [haya14busa/reviewdog: Automated code review tool integrated with any code analysis tools regardless of programming language](https://github.com/haya14busa/reviewdog)
 * [kisielk/godepgraph: A Go dependency graph visualization tool](https://github.com/kisielk/godepgraph)
-* [mitchellh/gox: A dead simple, no frills Go cross compile tool](https://github.com/mitchellh/gox)
 * [opennota/check: A set of utilities for checking Go sources](https://github.com/opennota/check)
 * [shurcooL/Go-Package-Store: An app that displays updates for the Go packages in your GOPATH.](https://github.com/shurcooL/Go-Package-Store)
 * [tenntenn/deppkg](https://github.com/tenntenn/deppkg)
 * [peter-edge/protoeasy-go: Simpler usage of protoc https://godoc.org/go.pedge.io/protoeasy](https://github.com/peter-edge/protoeasy-go)
+* [benchcmp - GoDoc](https://godoc.org/golang.org/x/tools/cmd/benchcmp)
+
+### Go Generate Tools
 * [cweill/gotests: Generate Go tests from your source code.](https://github.com/cweill/gotests)
-* [golangとbazelで作るいい感じなビルド環境 - Devlion Memo](http://mjhd.hatenablog.com/entry/2018/07/22/224528)
+
+### DevOps Tools
+* [adnanh/webhook: webhook is a lightweight configurable incoming webhook server which can execute shell commands](https://github.com/adnanh/webhook)
+* [mitchellh/gox: A dead simple, no frills Go cross compile tool](https://github.com/mitchellh/gox)
+
 ---
-* [Dart](https://www.dartlang.org/) - helps you craft beautiful, high-quality experiences across all screens
+* [Dart2](https://www.dartlang.org/) - helps you craft beautiful, high-quality experiences across all screens
 	* [AngularDart](https://webdev.dartlang.org/angular) - a web app framework that focuses on productivity, performance, and stability.
-	* [~~CoffeeScript~~](https://coffeescript.org/)	- a little language that compiles into JavaScript.
-	* [~~JavaScript~~](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - a lightweight interpreted or JIT-compiled programming language with first-class functions.
-		* [~~jQuery~~](https://jquery.com/) - a fast, small, and feature-rich JavaScript library.
 * [Nim](https://nim-lang.org/) - a systems and applications programming language.
 * [Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)
-	* [~~CSS~~](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Cascading Style Sheets
 * [Slim - A Fast, Lightweight Template Engine for Ruby](http://slim-lang.com/)
-	* [~~Haml~~](http://haml.info/) - Beautiful, DRY, well-indented, clear markup: templating haiku.
-	* [~~HTML~~](https://www.w3.org/html/)
-* [~~Python~~](https://www.python.org/) - a programming language that lets you work quickly and integrate systems more effectively.
-	* [~~Django~~](https://www.djangoproject.com/) - The Web framework for perfectionists with deadlines
-	* [~~Flask~~)](http://flask.pocoo.org/) - a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
-* [~~Shell script~~](https://en.wikipedia.org/wiki/Shell_script)
-* [~~Node.js~~](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [~~Erlang~~](https://www.erlang.org/) - a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 
 # Debug
 * [mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy.
@@ -174,7 +172,6 @@
 # OS
 * [Alpine Linux](https://alpinelinux.org/) - a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 	* [Edge - Alpine Linux](https://wiki.alpinelinux.org/wiki/Edge)
-	* [~~Rawhide - Fedora Linux~~](https://fedoraproject.org/wiki/Releases/Rawhide) - Rawhide is the name given to the current development version of Fedora.
 * [macOS High Sierra - Apple](https://www.apple.com/lae/macos/high-sierra/) - 10.13
 	* [mas-cli/mas: Mac App Store command line interface](https://github.com/mas-cli/mas)
 * [iOS 11 - Apple](https://www.apple.com/ios/ios-11/)
@@ -188,14 +185,12 @@
 
 * [Inbox by Gmail - the inbox that works for you](https://www.google.com/intl/en/inbox/)
 * [Where work happens | Slack](https://slack.com/)
-	* [~~Hipchat~~](https://www.atlassian.com/software/hipchat) - Group chat, video, and screen sharing | Atlassian
 * [Discover IFTTT and Applets - IFTTT](https://ifttt.com/discover)
 * Apple Reminders
 	* [Welcome to Reminders - Apple Support](https://support.apple.com/guide/reminders/welcome/mac)
 	* [Use Reminders on your iPhone, iPad, or iPod touch - Apple Support](https://support.apple.com/en-us/ht205890)
 ---
 * [Fork - a fast and friendly git client for Mac and Windows](https://git-fork.com/)
-	* [~~Sourcetree~~](https://www.atlassian.com/software/sourcetree) - A free Git & Mercurial client | Atlassian
 * [odrive - Sync all cloud storage in one place](https://www.odrive.com/)
 * [f.lux: software to make your life better](https://justgetflux.com/)
 * [Karabiner](https://pqrs.org/osx/karabiner/) - A powerful and stable keyboard customizer for macOS.
@@ -216,7 +211,6 @@
 * [Neovim](https://neovim.io/) - literally the future of vim
 	* [dein.vim: Dark powered Vim/Neovim plugin manager](https://github.com/Shougo/dein.vim)
 	* [NERDTree: A tree explorer plugin for vim.](https://github.com/scrooloose/nerdtree)
-	* [~~Vim~~](https://www.kaoriya.net/software/vim/) - KaoriYa
 * [Cloudcraft](https://cloudcraft.co/) – Draw AWS diagrams
 * [Grammarly: Free Writing Assistant](https://www.grammarly.com/)
 * [Ricty Diminished](https://github.com/edihbrandon/RictyDiminished) - fonts for programming
@@ -224,7 +218,6 @@
 * [Markdown](https://en.wikipedia.org/wiki/Markdown) - a lightweight markup language with plain text formatting syntax.
 * [TOML](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language
 * [YAML](http://yaml.org/) - a human friendly data serialization standard for all programming languages.
-	* [~~JSON~~](https://www.json.org/) - (JavaScript Object Notation) is a lightweight data-interchange format.
 * [jq](https://stedolan.github.io/jq/) - a lightweight and flexible command-line JSON processor.
 * [yq](https://github.com/mikefarah/yq) - a portable command-line YAML processor
 
@@ -239,3 +232,29 @@
 * [Refreshing Cloud Business Software | SaaS | Freshworks Inc.](https://www.freshworks.com/)
 * [クラウドサイン｜Web完結・印紙税0円の電子契約サービス](https://www.cloudsign.jp/)
 * [cam-inc/viron: ☕️ Automated Design-based Management Console.](https://github.com/cam-inc/viron)
+
+---
+# Past
+
+* [AWS](https://aws.amazon.com/) - Amazon Web Services - Cloud Computing Services
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Cascading Style Sheets
+* [CoffeeScript](https://coffeescript.org/)	- a little language that compiles into JavaScript.
+* [ConoHa](https://www.conoha.jp/)
+* [Django](https://www.djangoproject.com/) - The Web framework for perfectionists with deadlines
+* [Erlang](https://www.erlang.org/) - a programming language used to build massively scalable soft real-time systems with requirements on high availability.
+* [Flask)](http://flask.pocoo.org/) - a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+* [GitHub Pages](https://pages.github.com/) - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.
+* [HTML](https://www.w3.org/html/)
+* [Haml](http://haml.info/) - Beautiful, DRY, well-indented, clear markup: templating haiku.
+* [Hipchat](https://www.atlassian.com/software/hipchat) - Group chat, video, and screen sharing | Atlassian
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - a lightweight interpreted or JIT-compiled programming language with first-class functions.
+* [Node.js](https://nodejs.org/en/) - a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [Python](https://www.python.org/) - a programming language that lets you work quickly and integrate systems more effectively.
+* [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) - Representational state transfer. [RESTful Webサービス | Leonard Richardson, Sam Ruby, 山本 陽平, 株式会社クイープ |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4873113539)
+* [Shell script](https://en.wikipedia.org/wiki/Shell_script)
+* [Sourcetree](https://www.atlassian.com/software/sourcetree) - A free Git & Mercurial client | Atlassian
+* [Travis CI - Test and Deploy Your Code with Confidence](https://travis-ci.org/)
+* [Vim](https://www.kaoriya.net/software/vim/) - KaoriYa
+* [goa](https://goa.design/) - Design-first API Generation
+* [jQuery](https://jquery.com/) - a fast, small, and feature-rich JavaScript library.
+
