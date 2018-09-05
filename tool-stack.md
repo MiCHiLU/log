@@ -1,10 +1,11 @@
 # Tool Stack
 
 # Productivity
-- Lean Canvas - [An Introduction to Lean Canvas – Steve Mullen – Medium](https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c17c469d3e0)
-- [OKR](https://en.wikipedia.org/wiki/OKR) - Objectives and Key Results
-	- [OKR（オーケーアール） | クリスティーナ・ウォドキー, 二木 夢子, 及川卓也 | 実践経営・リーダーシップ | Kindleストア | Amazon](https://www.amazon.co.jp/dp/B07B2R1ZDL)
-- [Pivotal Tracker](https://www.pivotaltracker.com/agile/) - Agile Project Management
+* [Running Lean ―実践リーンスタートアップ](https://www.amazon.co.jp/dp/4873115914)
+* [ビジネスの地図を描こう | Bizmap（ビズマップ）](http://bizmap.tokyo/#frameworkTools)
+* [OKR](https://en.wikipedia.org/wiki/OKR) - Objectives and Key Results
+	* [OKR（オーケーアール） | クリスティーナ・ウォドキー, 二木 夢子, 及川卓也 | 実践経営・リーダーシップ](https://www.amazon.co.jp/dp/B07B2R1ZDL)
+* [Pivotal Tracker](https://www.pivotaltracker.com/agile/) - Agile Project Management
 
 # Architecture
 - [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_query_responsibility_segregation) - Command query responsibility segregation
@@ -240,6 +241,7 @@
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Cascading Style Sheets
 * [CoffeeScript](https://coffeescript.org/)	- a little language that compiles into JavaScript.
 * [ConoHa](https://www.conoha.jp/)
+* [Datastore  -  NoSQL  Schemaless  Database  |  Google  Cloud](https://cloud.google.com/datastore/)
 * [Django](https://www.djangoproject.com/) - The Web framework for perfectionists with deadlines
 * [Erlang](https://www.erlang.org/) - a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 * [Flask)](http://flask.pocoo.org/) - a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
@@ -257,4 +259,4 @@
 * [Vim](https://www.kaoriya.net/software/vim/) - KaoriYa
 * [goa](https://goa.design/) - Design-first API Generation
 * [jQuery](https://jquery.com/) - a fast, small, and feature-rich JavaScript library.
-
+* Lean Canvas - [An Introduction to Lean Canvas – Steve Mullen – Medium](https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c17c469d3e0)
