@@ -9,12 +9,14 @@
 # Pull Request
 * [Remove double dots in the filename by michilu · Pull Request #2341 · antlr/antlr4](https://github.com/antlr/antlr4/pull/2341)
 * [fix do not work filters by michilu · Pull Request #73 · Ceasar/staticjinja](https://github.com/Ceasar/staticjinja/pull/73)
+### closed
+* [[#1164] move `web_components` line to dev_dependencies in the pubspec.yaml by michilu · Pull Request #1321 · dart-archive/angular.dart](https://github.com/dart-archive/angular.dart/pull/1321)
 
 # Issue
-* [cmd/go: go1.11 does not work on Alpine Linux · Issue #27264 · golang/go](https://github.com/golang/go/issues/27264)
 * [Could you keep the 'v1.0.0' interface? · Issue #2 · vardius/message-bus](https://github.com/vardius/message-bus/issues/2)
 * [dependency to the ssh identity file · Issue #26 · stormcat24/protodep](https://github.com/stormcat24/protodep/issues/26)
 ### closed
+* [cmd/go: go1.11 does not work on Alpine Linux · Issue #27264 · golang/go](https://github.com/golang/go/issues/27264)
 * [x/vgo: 'vgo vet' different behavior with 'go vet'. · Issue #26997 · golang/go](https://github.com/golang/go/issues/26997)
 * [Is it supports the docker? · Issue #8 · linuxerwang/gobazel](https://github.com/linuxerwang/gobazel/issues/8)
 * [Support a kubeadm-dind-cluster · Issue #222 · vapor-ware/ksync](https://github.com/vapor-ware/ksync/issues/222)
@@ -27,6 +29,8 @@
 * [Reporting a bug on building the repo · Issue #51 · google/cel-go](https://github.com/google/cel-go/issues/51)
 
 # Watch
+* [Proposal: add option to build browserify / es6 modules · Issue #524 · gopherjs/gopherjs](https://github.com/gopherjs/gopherjs/issues/524)
+* [Add support for USD and USDZ formats · Issue #14219 · mrdoob/three.js](https://github.com/mrdoob/three.js/issues/14219)
 * [Focus-based navigation · Issue #1608 · flutter/flutter](https://github.com/flutter/flutter/issues/1608)
 * [server: get hello world working on GAE Standard · Issue #210 · google/go-cloud](https://github.com/google/go-cloud/issues/210)
 * [No changes written to file · Issue #212 · vapor-ware/ksync](https://github.com/vapor-ware/ksync/issues/212)
