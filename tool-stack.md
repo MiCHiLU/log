@@ -2,10 +2,12 @@
 
 # Productivity
 * [Running Lean ―実践リーンスタートアップ](https://www.amazon.co.jp/dp/4873115914)
-* [ビジネスの地図を描こう | Bizmap（ビズマップ）](http://bizmap.tokyo/#frameworkTools)
+* [ビジネスの地図を描こう | Bizmap（ビズマップ）](https://bizmap.tokyo/#frameworkTools)
 * [OKR](https://en.wikipedia.org/wiki/OKR) - Objectives and Key Results
-	* [OKR（オーケーアール） | クリスティーナ・ウォドキー, 二木 夢子, 及川卓也 | 実践経営・リーダーシップ](https://www.amazon.co.jp/dp/B07B2R1ZDL)
-* [Pivotal Tracker](https://www.pivotaltracker.com/agile/) - Agile Project Management
+	* [OKR（オーケーアール） | クリスティーナ・ウォドキー, 二木 夢子, 及川卓也](https://www.amazon.co.jp/dp/B07B2R1ZDL)
+* [アジャイルサムライ――達人開発者への道 | ＪｏｎａｔｈａｎＲａｓｍｕｓｓｏｎ, 西村直人, 角谷信太郎, 近藤修平, 角掛拓未, 西村 直人, 角谷 信太郎](https://www.amazon.co.jp/dp/B00J1XKB6K)
+	* [Pivotal Tracker](https://www.pivotaltracker.com/agile/) - Agile Project Management
+* [実践ドメイン駆動設計 | ヴァーン・ヴァーノン, 高木正弘](https://www.amazon.co.jp/dp/B00UX9VJGW)
 
 # Architecture
 - [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_query_responsibility_segregation) - Command query responsibility segregation
@@ -40,7 +42,7 @@
 * [Google Cloud Computing, Hosting Services & APIs  |  Google Cloud](https://cloud.google.com/gcp/)
 	* [App Engine - Build Scalable Web & Mobile Backends in Any Language  |  Google Cloud](https://cloud.google.com/appengine/)
 		* [User Authentication Options  |  App Engine standard environment for Go  |  Google Cloud](https://cloud.google.com/appengine/docs/standard/go/oauth/#firebase_authentication)
-		* [Task Queue Overview  |  App Engine standard environment for Go  |  Google Cloud](https://cloud.google.com/appengine/docs/standard/go/taskqueue/)
+	* [Cloud Tasks Service for Asynchronous Execution  |  Google Cloud](https://cloud.google.com/tasks/)
 	* [Cloud Endpoints - API Management  |  Google Cloud](https://cloud.google.com/endpoints/)
 	* [Cloud Storage - Online Data Storage  |  Google Cloud](https://cloud.google.com/storage/)
 	* [BigQuery - Analytics Data Warehouse  |  Google Cloud](https://cloud.google.com/bigquery/)
@@ -175,10 +177,9 @@
 	* [Edge - Alpine Linux](https://wiki.alpinelinux.org/wiki/Edge)
 * [macOS High Sierra - Apple](https://www.apple.com/lae/macos/high-sierra/) - 10.13
 	* [mas-cli/mas: Mac App Store command line interface](https://github.com/mas-cli/mas)
-* [iOS 11 - Apple](https://www.apple.com/ios/ios-11/)
+* [iOS 12 - Apple](https://www.apple.com/ios/ios-12/)
 # Device
 * [MacBook Air (11-inch, Early 2015) - Technical Specifications](https://support.apple.com/kb/SP713?viewlocale=en_US)
-* [Koolertron Cherry MX Red Mechanical Keyboard with 43 Programmable Keys, Model: AE-SMKD92](http://www.koolertron.com/koolertron-cherry-mx-red-programmable-gaming-keypad-for-pubg-mechanical-gaming-keyboard-with-43-programmable-keys-for-playerunknowns-battlegrounds-singlehanded-keypad-macro-setting-p-818.html)
 * [iPod touch (6th generation) - Technical Specifications](https://support.apple.com/kb/SP720?viewlocale=en_US)
 * [Kindle Paperwhite](https://www.amazon.co.jp/dp/B01FIG3SMC)
 * [Amazon Fire 7](https://www.amazon.co.jp/dp/B01J90PKEM)
@@ -223,6 +224,7 @@
 * [yq](https://github.com/mikefarah/yq) - a portable command-line YAML processor
 
 # Artwork
+* [Whimsical — The Visual Workspace](https://whimsical.co/)
 * [Affinity Photo - Professional image editing software](https://affinity.serif.com/en-gb/photo/) - The future of photo editing.
 * [Astropad | Turn your iPad into a drawing tablet](https://astropad.com/)
 * [VIRTUAL DJ SOFTWARE - MP3 Mixing Software](https://www.virtualdj.com/)
