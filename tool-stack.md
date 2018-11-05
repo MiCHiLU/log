@@ -126,7 +126,8 @@
 ### Logging
 * [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
 ### Messaging
-* [vardius/message-bus: Go simple async message bus](https://github.com/vardius/message-bus)
+* [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
+* pub/sub and pipeline pattern [boilerplate/echo.go at master · michilu/boilerplate](https://github.com/michilu/boilerplate/blob/master/cmd/echo/echo.go)
 * [go-msgqueue/msgqueue: Golang task/job queue with SQS & IronMQ backends](https://github.com/go-msgqueue/msgqueue)
 ### Validation
 * [asaskevich/govalidator: [Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
@@ -147,6 +148,7 @@
 * [benchcmp - GoDoc](https://godoc.org/golang.org/x/tools/cmd/benchcmp)
 
 ### Go Generate Tools
+* [cheekybits/genny: Elegant generics for Go](https://github.com/cheekybits/genny)
 * [cweill/gotests: Generate Go tests from your source code.](https://github.com/cweill/gotests)
 
 ### DevOps Tools
