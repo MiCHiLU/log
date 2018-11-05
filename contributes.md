@@ -7,8 +7,9 @@
 	* [Ubuntu – Details of source package python-functools32 in cosmic](https://packages.ubuntu.com/en/source/cosmic/python-functools32)
 
 # Pull Request
-* [Remove double dots in the filename by michilu · Pull Request #2341 · antlr/antlr4](https://github.com/antlr/antlr4/pull/2341)
 * [fix do not work filters by michilu · Pull Request #73 · Ceasar/staticjinja](https://github.com/Ceasar/staticjinja/pull/73)
+### Merged
+* [Remove double dots in the filename by michilu · Pull Request #2341 · antlr/antlr4](https://github.com/antlr/antlr4/pull/2341)
 ### closed
 * [[#1164] move `web_components` line to dev_dependencies in the pubspec.yaml by michilu · Pull Request #1321 · dart-archive/angular.dart](https://github.com/dart-archive/angular.dart/pull/1321)
 
@@ -22,17 +23,18 @@
 * [Support a kubeadm-dind-cluster · Issue #222 · vapor-ware/ksync](https://github.com/vapor-ware/ksync/issues/222)
 
 # Discus
+* [cmd+tabのapp切り替えダイアログが表示されたままになる - Google グループ](https://groups.google.com/forum/#!msg/osx-karabiner-ja/Em73acf-e9g/6UfvGBP7CQAJ)
 * [Shortcut to insert text · Issue #1028 · benweet/stackedit](https://github.com/benweet/stackedit/issues/1028)
 * [How to do import the cel-go library to my Go code? - Google グループ](https://groups.google.com/forum/#!topic/cel-go-discuss/R_i9L_APfBg)
 ### done
 * [cmd/go: modfetch.Unzip checks that all filenames are acceptable, causing problems for test fixture directories · Issue #26672 · golang/go](https://github.com/golang/go/issues/26672) vgoと異なり、go1.11ではmodulesの独立実装になったので問題なし。
 * [Reporting a bug on building the repo · Issue #51 · google/cel-go](https://github.com/google/cel-go/issues/51)
 
-# Watch
+# Follow
+* [wiki repositories don't refresh because they're not part of the API · Issue #2061 · desktop/desktop](https://github.com/desktop/desktop/issues/2061)
 * [Proposal: add option to build browserify / es6 modules · Issue #524 · gopherjs/gopherjs](https://github.com/gopherjs/gopherjs/issues/524)
 * [Add support for USD and USDZ formats · Issue #14219 · mrdoob/three.js](https://github.com/mrdoob/three.js/issues/14219)
 * [Focus-based navigation · Issue #1608 · flutter/flutter](https://github.com/flutter/flutter/issues/1608)
-* [server: get hello world working on GAE Standard · Issue #210 · google/go-cloud](https://github.com/google/go-cloud/issues/210)
 * [No changes written to file · Issue #212 · vapor-ware/ksync](https://github.com/vapor-ware/ksync/issues/212)
 * [Proposal: machine share · Issue #179 · docker/machine](https://github.com/docker/machine/issues/179)
 * [List and delete deployments · Issue #215 · firebase/firebase-tools](https://github.com/firebase/firebase-tools/issues/215)
@@ -40,6 +42,7 @@
 * [Support for vgo builds outside GOPATH · Issue #835 · gopherjs/gopherjs](https://github.com/gopherjs/gopherjs/issues/835)
 * [1.7 is CPU-hungry on minikube · Issue #48948 · kubernetes/kubernetes](https://github.com/kubernetes/kubernetes/issues/48948)
 ### closed
+* [server: get hello world working on GAE Standard · Issue #210 · google/go-cloud](https://github.com/google/go-cloud/issues/210) works on `runtime: go111` https://github.com/vangent/go-cloud/tree/appengine/samples/appengine
 * [Go 1.11 support. · Issue #836 · gopherjs/gopherjs](https://github.com/gopherjs/gopherjs/issues/836)
 * [[WIP] build: initial vgo support by myitcv · Pull Request #12 · myitcv/gopherjs](https://github.com/myitcv/gopherjs/pull/12)
 	* [Initial module-aware changes for Go1.11 by myitcv · Pull Request #14 · myitcv/gopherjs](https://github.com/myitcv/gopherjs/pull/14)
