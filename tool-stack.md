@@ -114,6 +114,9 @@
 * [monochromegane/smux: smux is a socket multiplexer written in Golang. It provides fast communication by efficiently a single connection.](https://github.com/monochromegane/smux)
 	* [Go言語でTCPやソケット通信を多重化，高速化するsmux(ソケットマルチプレクサ)をつくった · THINKING MEGANE](https://blog.monochromegane.com/blog/2018/05/03/smux/)
 * [google/go-cloud: A library and tools for open cloud development in Go.](https://github.com/google/go-cloud)
+###gRPC
+* [grpc/grpc-web: gRPC for Web Clients](https://github.com/grpc/grpc-web) gRPC-Web provides a Javascript library that lets browser clients access a gRPC service.
+* [izumin5210/grapi: 😮 A surprisingly easy API server and generator in gRPC and Go](https://github.com/izumin5210/grapi)
 ### Authentication and OAuth
 * [tarent/loginsrv: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..](https://github.com/tarent/loginsrv)
 ### Command Line
@@ -121,6 +124,8 @@
 * [spf13/viper: Go configuration with fangs](https://github.com/spf13/viper)
 ### Distributed Systems
 * [grpc/grpc-go: The Go language implementation of gRPC. HTTP/2 based RPC](https://github.com/grpc/grpc-go)
+### GEO
+* [golang/geo: S2 geometry library in Go](https://github.com/golang/geo)
 ### Generation and Generics
 * [abice/go-enum: An enum generator for go](https://github.com/abice/go-enum)
 ### Logging
@@ -129,9 +134,12 @@
 * [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
 * pub/sub and pipeline pattern [boilerplate/echo.go at master · michilu/boilerplate](https://github.com/michilu/boilerplate/blob/master/cmd/echo/echo.go)
 * [go-msgqueue/msgqueue: Golang task/job queue with SQS & IronMQ backends](https://github.com/go-msgqueue/msgqueue)
+### Testing
+* [chromedp/chromedp: A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.](https://github.com/chromedp/chromedp)
 ### Validation
 * [asaskevich/govalidator: [Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
-
+### Web
+* [gocolly/colly: Elegant Scraper and Crawler Framework for Golang](https://github.com/gocolly/colly)
 ### Utilities
 * [fatih/structs: Utilities for Go structs](https://github.com/fatih/structs)
 * [derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
@@ -157,12 +165,17 @@
 
 ---
 * [Dart2](https://www.dartlang.org/) - helps you craft beautiful, high-quality experiences across all screens
-	* [AngularDart](https://webdev.dartlang.org/angular) - a web app framework that focuses on productivity, performance, and stability.
+  	* [AngularDart](https://webdev.dartlang.org/angular) - a web app framework that focuses on productivity, performance, and stability.
 * [Nim](https://nim-lang.org/) - a systems and applications programming language.
 * [Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)
 * [Slim - A Fast, Lightweight Template Engine for Ruby](http://slim-lang.com/)
 
+## HTML5
+
+* [ampproject/worker-dom: The same DOM API and Frameworks you know, but in a Web Worker.](https://github.com/ampproject/worker-dom)
+
 # Debug
+
 * [mitmproxy - an interactive HTTPS proxy](https://mitmproxy.org/) - a free and open source interactive HTTPS proxy.
 # Console
 * [Solarized](http://ethanschoonover.com/solarized) - Precision colors for machines and people
