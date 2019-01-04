@@ -220,14 +220,16 @@
 * [scrcpy: Display and control your Android device](https://github.com/Genymobile/scrcpy)
 
 # Editor
+* [Scrapbox - Realtime Knowledge Base - Capture ideas in context](https://scrapbox.io/)
 * Apple Notes
-	* [Notes for Mac: Notes overview](https://support.apple.com/kb/PH22608?viewlocale=en_US)
-	* [Use Notes on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/ht205773)
+  * [Notes for Mac: Notes overview](https://support.apple.com/kb/PH22608?viewlocale=en_US)
+  * [Use Notes on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/ht205773)
+* [Typora — a markdown editor, markdown reader.](https://typora.io/)
 * [StackEdit – In-browser Markdown editor](https://stackedit.io/)
 * [Google Drive - Cloud Storage & File Backup for Photos, Docs & More](https://www.google.com/intl/en/drive/)
 * [Neovim](https://neovim.io/) - literally the future of vim
-	* [dein.vim: Dark powered Vim/Neovim plugin manager](https://github.com/Shougo/dein.vim)
-	* [NERDTree: A tree explorer plugin for vim.](https://github.com/scrooloose/nerdtree)
+  * [dein.vim: Dark powered Vim/Neovim plugin manager](https://github.com/Shougo/dein.vim)
+  * [NERDTree: A tree explorer plugin for vim.](https://github.com/scrooloose/nerdtree)
 * [Cloudcraft](https://cloudcraft.co/) – Draw AWS diagrams
 * [Grammarly: Free Writing Assistant](https://www.grammarly.com/)
 * [Ricty Diminished](https://github.com/edihbrandon/RictyDiminished) - fonts for programming
@@ -240,8 +242,10 @@
 
 # Artwork
 * [Whimsical — The Visual Workspace](https://whimsical.co/)
-* [Affinity Photo - Professional image editing software](https://affinity.serif.com/en-gb/photo/) - The future of photo editing.
 * [Astropad | Turn your iPad into a drawing tablet](https://astropad.com/)
+* [Affinity Photo - Professional image editing software for desktop and iPad](https://affinity.serif.com/en-gb/photo/)
+* [Affinity Designer - Professional graphic design software for desktop and iPad](https://affinity.serif.com/en-gb/designer/)
+* [2D - Animation Tools for Apps, Games, and Web](https://www.2dimensions.com/)
 * [VIRTUAL DJ SOFTWARE - MP3 Mixing Software](https://www.virtualdj.com/)
 
 # Back office
